@@ -185,7 +185,7 @@ function handleBackground(){
 }
 
 //Enemies
-const enemyImage = new Image();
+
 
 
 class Enemy{
@@ -239,6 +239,8 @@ class Enemy{
         }
     }
 }
+const enemyImage = new Image();
+enemyImage.src='red_fish.png';
 
 const enemy1= new Enemy();
 
@@ -273,7 +275,7 @@ if(!gameOver)requestAnimationFrame(animate);
 }
 
 animate();
-enemyImage.src='red_fish.png';
+
 window.addEventListener('resize', function(){
     canvasPosition= canvas.getBoundingClientRect();
 });
