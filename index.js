@@ -186,7 +186,7 @@ function handleBackground(){
 
 //Enemies
 const enemyImage = new Image();
-enemyImage.src='__red_cartoon_fish_01_swim.png';
+enemyImage.src='Bubble-Popping-game/__red_cartoon_fish_01_swim.png';
 
 class Enemy{
     constructor(){
