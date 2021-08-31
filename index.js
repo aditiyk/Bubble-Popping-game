@@ -186,7 +186,7 @@ function handleBackground(){
 
 //Enemies
 const enemyImage = new Image();
-enemyImage.src='red_fish';
+enemyImage.src='red_fish.png';
 
 class Enemy{
     constructor(){
