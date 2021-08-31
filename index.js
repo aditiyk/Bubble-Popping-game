@@ -186,7 +186,7 @@ function handleBackground(){
 
 //Enemies
 const enemyImage = new Image();
-enemyImage.src='red_fish.png';
+
 
 class Enemy{
     constructor(){
@@ -247,7 +247,7 @@ function handleEnemies(){
     enemy1.draw();
     enemy1.update();
 }
-
+enemyImage.src='red_fish.png';
 function  handleGameOver(){
     ctx.fillStyle='red';
     ctx.fillText('GAME OVER! Your score is: '+ score, 110, 250);
