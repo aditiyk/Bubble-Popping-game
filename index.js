@@ -239,8 +239,7 @@ class Enemy{
         }
     }
 }
-const enemyImage = new Image();
-enemyImage.src='red_fish.png';
+
 
 const enemy1= new Enemy();
 
@@ -250,6 +249,9 @@ function handleEnemies(){
     enemy1.update();
 }
 
+
+const enemyImage = new Image();
+enemyImage.src='red_fish.png';
 function  handleGameOver(){
     ctx.fillStyle='red';
     ctx.fillText('GAME OVER! Your score is: '+ score, 110, 250);
