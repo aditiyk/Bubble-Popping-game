@@ -30,9 +30,9 @@ canvas.addEventListener('mouseup',function(){
 
 //Player
 const playerLeft = new Image();
-playerLeft.src = 'fish_swim_left.png';
+playerLeft.src = 'Bubble-Popping-game/fish_swim_left.png';
 const playerRight = new Image();
-playerRight.src='fish_swim_right.png';
+playerRight.src='Bubble-Popping-game/fish_swim_right.png';
 class Player{
     constructor(){
         this.x= canvas.width;
@@ -109,7 +109,7 @@ const player = new Player();
 const bubblesArray=[];
 
 const bubbleImage = new Image();
-bubbleImage.src='bubble_pop_frame_01.png';
+bubbleImage.src='Bubble-Popping-game/bubble_pop_frame_01.png';
 class Bubble{
     constructor(){
         this.x= Math.random()* canvas.width;
@@ -176,7 +176,7 @@ for(let i =0; i<bubblesArray.length; i++){
 
 //Repeating backgrounds
 const background = new Image();
-background.src='4_game_background.png';
+background.src='Bubble-Popping-game/4_game_background.png';
 
 
 
@@ -186,7 +186,7 @@ function handleBackground(){
 
 //Enemies
 const enemyImage = new Image();
-enemyImage.src='__red_cartoon_fish_01_swim.png';
+enemyImage.src='Bubble-Popping-game/__red_cartoon_fish_01_swim.png';
 
 class Enemy{
     constructor(){
