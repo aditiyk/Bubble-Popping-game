@@ -247,7 +247,7 @@ function handleEnemies(){
     enemy1.draw();
     enemy1.update();
 }
-enemyImage.src='red_fish.png';
+
 function  handleGameOver(){
     ctx.fillStyle='red';
     ctx.fillText('GAME OVER! Your score is: '+ score, 110, 250);
@@ -273,7 +273,7 @@ if(!gameOver)requestAnimationFrame(animate);
 }
 
 animate();
-
+enemyImage.src='red_fish.png';
 window.addEventListener('resize', function(){
     canvasPosition= canvas.getBoundingClientRect();
 });
